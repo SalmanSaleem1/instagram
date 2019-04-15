@@ -24,7 +24,7 @@ SECRET_KEY = 'n4xt&xp)udgml=72z@+ra@%x)8*4$(sru+3@zr_p8iw7um0tsd'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['radiant-ravine-39999.herokuapp.com']
+ALLOWED_HOSTS = ['sheltered-fjord-54826.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
