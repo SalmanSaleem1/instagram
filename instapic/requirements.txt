@@ -18,6 +18,7 @@ docutils==0.14
 EB==0.1.5
 future==0.16.0
 idna==2.7
+gunicorn==19.9.0
 jmespath==0.9.4
 jsonschema==2.6.0
 mongoengine==0.17.0
