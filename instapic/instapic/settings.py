@@ -23,8 +23,7 @@ SECRET_KEY = 'n4xt&xp)udgml=72z@+ra@%x)8*4$(sru+3@zr_p8iw7um0tsd'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = ['sheltered-fjord-54826.herokuapp.com']
+ALLOWED_HOSTS = ['protected-plains-87938.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
@@ -38,6 +37,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -118,7 +118,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
-
+PROJECT_ROOT = os.path.join(os.path.abspath(__file__))
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 STATIC_URL = '/static/'
 
 LOGIN_REDIRECT_URL = '/'
@@ -127,5 +128,6 @@ LOGOUT_REDIRECT_URL = '/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
 ]
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 AUTHENTICATION_BACKENDS = ('instapic.authb.AuthB',)
