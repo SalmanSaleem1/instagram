@@ -47,7 +47,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'instapic.urls'
+ROOT_URLCONF = 'instapic.instapic.urls'
 
 TEMPLATES = [
     {
