@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db741a1a-f2e8-4fb4-83d0-5ce1dfa3b4d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/instapic/instapic/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/instapic/instapic/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,16 +169,15 @@
       <updated>1555344546364</updated>
       <workItem from="1555344549150" duration="12160000" />
       <workItem from="1555372699158" duration="1785000" />
-      <workItem from="1555957077272" duration="3279000" />
+      <workItem from="1555957077272" duration="3616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17224000" />
+    <option name="totallyTimeSpent" value="17561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25778133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
